@@ -43,9 +43,12 @@ const App = () => {
                 <div className="footer" >
                     <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
                         The CryptoUpdate <br />
-                        All rights Reserved
+                        All rights Reserved 
+                        
                     </Typography.Title>
+                    <a href="https://github.com/Adityap-01" target={"_blank"}>Aditya Pradhan</a> 
                     <Space>
+                        
                         <Link to="/">Home</Link>
                         <Link to="/cryptocurrencies">Cryptocurrencies</Link>
                         <Link to="/news">News</Link>
