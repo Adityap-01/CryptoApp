@@ -16,7 +16,7 @@ const Homepage = () => {
     console.log(data);
     return (
         <>
-            <Title level={2} className='heading'>Global Crypto Stats</Title>
+            <Title level={2} className='heading'>Current Global Stats</Title>
             <Row>
                 {/* In ant design there are total 24 spans so 12 means taking 1/2 screen  */}
                 <Col span={12}><Statistic title="Total Cryptocurrencies" value={globalStats.total}/></Col>     
@@ -29,7 +29,7 @@ const Homepage = () => {
             <div className="home-heading-container">
             <Title level={2} className='home-title'>Top 10 Cryptocurrencies in the world</Title>
             <Title level={3} className='show-more'>
-                <Link to="/cryptocurrencies">Show More</Link>
+                <Link to="/cryptocurrencies" style={{fontSize: "1rem"}}>Show More</Link>
             </Title>
             </div>
             <Cryptocurrencies simplified/>
