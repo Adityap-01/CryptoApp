@@ -8,6 +8,7 @@ const Navbar = () => {
     return (
         <div className="nav-container">
             <div className="logo-container">
+                
                 <div className="headcont">
                     <Avatar src={icon} size="large" />
                     <Typography.Title level={2} className="logo">
