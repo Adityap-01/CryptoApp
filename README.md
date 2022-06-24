@@ -1,9 +1,7 @@
-# Getting Started with Create React App
+# TheCryptoUpdate
+A react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
+## Images - 
+<img src="src/images/pic1.PNG" width="700">
+<img src="src/images/pic2.PNG" width="700">
+<img src="src/images/pic3.PNG" width="700">
